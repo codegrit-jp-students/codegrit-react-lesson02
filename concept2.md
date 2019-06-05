@@ -27,6 +27,10 @@ class Index extends Component {
 export default Index
 ```
 
+- jsFiddleを利用した例
+
+<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/maLytch6/1/embedded/js,html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
 上記のように、渡されたpropsへとアクセスするためには`this.props`という呼び出し方をしている点に注意してください。またファンクションを利用してJSX内の値をダイナミックに変更することも可能です。
 
 ### 2. ファンクションを利用した書き方
@@ -44,6 +48,10 @@ const Index = (props) => {
 
 export default Index
 ```
+
+- jsFiddleを利用した例
+
+<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/L9x2d6nh/1/embedded/js,html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 classを利用した場合と異なり、renderファンクションの呼び出しが省略できるので、よりスッキリとした見た目にすることが可能です。また引数にpropsを直接設定できる点にも注目してください。propsの数が少ない場合には分割代入を利用して以下のように書くこともできます。
 

@@ -38,6 +38,10 @@ export default class extends Component  {
 }
 ```
 
+- jsFiddleを利用した例
+
+<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/j3he4Lov/1/embedded/js,html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
 これを見て、直感的に分かりやすいと感じたでしょうか？ 多くの方は分かりづらいと感じたかと思います。
 
 Reactでは、こうしたReactエレメントの作成をcreateElementではなく**JSX**という記法を利用して置き換えることができます。
@@ -101,6 +105,10 @@ export default class extends Component {
 }
 ```
 
+- jsFiddleを利用した例
+
+<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/mv5a9osr/2/embedded/js,html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
 ### 変数を利用する
 
 JSX内で変数を利用したい場合には変数をカギカッコ{}で囲みます。
@@ -117,6 +125,10 @@ export default class extends Component {
   }
 }
 ```
+
+- jsFiddleを利用した例
+
+<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/hw8eorfc/1/embedded/js,html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ### 既存のコンポーネントをJSX内で呼び出す。
 
@@ -139,6 +151,10 @@ export default class extends Component {
   }
 }
 ```
+
+- jsFiddleを利用した例
+
+<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/vygwbd4t/1/embedded/js,html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 
 ### 既存のコンポーネントにPropsを渡す
@@ -191,6 +207,10 @@ export default class extends Component {
   }
 }
 ```
+
+- jsFiddleを利用した例
+
+<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/vygwbd4t/2/embedded/js,html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ### コメントを書く。
 
@@ -255,6 +275,10 @@ export default class extends Component {
   }
 }
 ```
+
+- jsFiddleを利用した例
+
+<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/rkxfvp67/1/embedded/js,html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ### 閉じるための要素の省略
 
